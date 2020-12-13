@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>Selenium_Automation_v1.0</groupId>
-	<artifactId>Selenium_Automation_v1.0</artifactId>
+	<groupId>Selenium_Cucumber_Framework</groupId>
+	<artifactId>Selenium_Cucumber_Framework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -135,6 +135,20 @@
 			<artifactId>log4j</artifactId>
 			<version>1.2.17</version>
 		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>6.9.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>6.9.0</version>
+			<scope>test</scope>
+		</dependency>
+
 
 	</dependencies>
 </project>
